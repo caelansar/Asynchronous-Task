@@ -24,5 +24,5 @@ type ByeTask struct {
 
 func (h ByeTask) Perform() {
 	time.Sleep(5 * time.Second)
-	fmt.Println("fuck ", h.Name)
+	fmt.Println("bye ", h.Name)
 }
